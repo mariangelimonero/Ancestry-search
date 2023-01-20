@@ -1,9 +1,3 @@
-#Bracket_search: Determinar posiciones cercanas (+-0.5cM) entre la lista de CVD y la lista de GWAS-Pablo.
-#Funciona
-#fecha: 06-12-2022
-#Output: Genera 3 documentos que son el args.o (intersección entre CVD y GWAS), bracket_search.csv (match de marcadores entre 0.5cM) y bracket_search_final.csv(match de marcadores entre 0.5cM y sus respectivas ancestrías).
-#Linea de comando: python3 Parte3.py --rs_list 60marcadoresgeneticos_copy.txt --ancestry_file rsnumber_ancestry_all.csv --o Parte3_06_12_22.csv
-
 import argparse
 import pandas as pd
 import csv
