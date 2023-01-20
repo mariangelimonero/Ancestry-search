@@ -1,4 +1,4 @@
-Steps to identify non-random enrichment in association between two SNPs.
+Steps to identify non-random enrichment in association between two SNPs and its ancestry fractions.
 1. Ancestry-search
 Ancestry search - Program executed to determine the ancestry from each SNP or
 variant available in our dataset from each Caribbean Hispanic patient in treatment with clopidogrel. The resulting ancestry fractions were used for further steps in script development. Output: A cvs file was obtained with the following columns: rsnumber, chr (chromosome), pos (position), cM (centimorgan), average ancestry, and samples.
