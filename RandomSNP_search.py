@@ -1,9 +1,3 @@
-#Random search: Determinar posiciones de marcadores genéticos aleatorias sin tomar en consideración las posiciones mutuas entre el rs_list de interes y el documento de ancestría de rsnumbers.
-#Funciona
-#fecha: 06-12-2022
-#Output: Genera 1 documento, que es el args.o, con marcadores geneticos aleatorios (basados en POS).
-#Linea de comando: python3 Parte2.py --rs_list 60marcadoresgeneticos_copy.txt --ancestry_file rsnumber_ancestry_all.csv --random 60 --o Parte2_06_12_22.csv
-
 import argparse
 import random
 
